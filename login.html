@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<title>Gateway | Login</title>
+<meta charset='utf-8' lang='en' content='width=device-width; initial-scale=1.0' name='viewport' />
+
+<link rel="stylesheet" href="css/extra.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+<h2 style="text-align:center">Login</h2>
+
+<!--<form action="log.php" method="post">-->
+<form action="php/app/authMerchant.php" method="post">
+
+
+  <div class="container flexy" >
+
+     <div class='col-md-6 form-container'>
+
+         <label><b >Email</b></label>
+         <input type="text" class='form-control' placeholder="Enter Username" name="email" required> <br>
+
+         <label><b >Password</b></label>
+         <input type="password" class='form-control' placeholder="Enter Password" name="psw" required> <br>
+
+         <input type="submit"  class='btn btn-primary' value="Login">
+
+          <button type="button" class="cancelbtn btn btn-warning">Cancel</button><br>
+         <input  class='form_control' style='margin:10px'type="checkbox" checked="checked">Remember me
+
+
+         <div class="container" style="background-color:#fff">
+            <span class="psw">Forgot Password? <a href="reset.html">Reset</a></span>
+           <span class="psw">New user? <a href="signup.html">signup</a></span>
+         </div>
+       </div>
+
+
+
+    </div>
+
+  <!--End of col-md-6 -->
+
+</form>
+
+</body>
+</html>

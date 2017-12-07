@@ -1,0 +1,3 @@
+"{"wallet":"6080"}"
+
+http://localhost/payment_gateway/php/api/v1/getamount.php?key=729b4d79130b97973e90

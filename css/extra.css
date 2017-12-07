@@ -1,0 +1,22 @@
+.container{
+
+}
+/**Hide horizontal scroll bars **/
+html,body{
+  overflow-x:hidden;
+}
+
+.btn{
+  margin:10px;
+}
+input{
+  margin:5px;
+}
+.col-md-6 {
+  background-color:white;
+
+}
+.flexy{
+  display:flex;
+  justify-content: space-around;
+}

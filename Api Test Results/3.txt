@@ -1,0 +1,2 @@
+http://localhost/payment_gateway/php/api/v1/sendpayment.php?merchant=enaardayfio@gmail.com&from=client-1&amount=700
+status 201

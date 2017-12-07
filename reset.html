@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Payment Gateway Reset</title>
+    <meta charset='utf-8' lang='en' content='width=device-width; initial-scale=1.0' name='viewport' />
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class='container flexy'>
+        <div class='form-container  col-md-6'>
+          <h2 style='text-align:center'>Reset Password</h2>
+           <form  method='post' action='php/app/reset.php'>
+             <label>Email </label>
+             <input type="email" name="reset_email"  class='form-control' value="">
+
+              <label>Password </label>
+             <input type="password" name="new_pswd"  class='form-control' value="">
+
+             <label>Retype Password </label>
+            <input type="password" name="pswd_check"  class='form-control' value="">
+                <button type="submit" class='btn btn-primary' name="button">Reset</button>
+                <button type="submit" class='btn btn-warning' name="button">Cancel</button>
+
+           </form>
+        </div>
+
+    </div>
+
+  </body>
+</html>

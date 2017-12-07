@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gateway | Signup</title>
+  <meta charset='utf-8' lang='en' content='width=device-width; initial-scale=1.0' name='viewport' />
+
+  <link rel="stylesheet" href="css/extra.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+<h2 class='header' style='text-align:center'>Signup</h2>
+
+<!--<form action="add.php" method="post"> -->
+<form action="php/app/addmerchant.php" method="post">
+<div class="container flexy" >
+
+   <div class='col-md-6 form-container'>
+     <!--First Name Input Field -->
+         <label><b>Firstname</b></label>
+         <input type="text" placeholder="Enter firstname" class='form-control' name="fname" required>
+
+     <!--Surname Input Field -->
+         <label><b >Surname</b></label>
+         <input type="text" placeholder="Enter surname" name="sname"  class='form-control' required>
+
+     <!--Email Input Field -->
+     	<label><b>Email</b></label>
+         <input type="email" placeholder="Email" name="email"  class='form-control' required>
+
+     <!--Password Input Field -->
+     	<label><b>Password</b></label>
+         <input type="password" placeholder="Enter password" name="pswd"  class='form-control' required>
+       <!--Check Password Input Field -->
+         <label><b>Retype Password</b></label>
+           <input type="password" placeholder="Enter password" name="pswd_check"  class='form-control' required>
+     <!--Date Of Birth Input Field -->
+     	<label><b>Date Of Birth</b></label>
+         <input type="text" placeholder="Enter dateofbirth" name="dob"   class='form-control' required>
+
+     <!--Telephone Number Input Field -->
+        <label>Number</label>
+         <input type="tel" placeholder="Enter number" name="num"  class='form-control' required>
+     	<input type="submit"  class='btn btn-primary' value="Login">
+       <button type="button" class="cancelbtn btn btn-warning">Cancel</button>
+
+       <div class="container" style="background-color:#fff">
+
+         <span class="psw">Have an account? <a href="login.html">Sign in</a></span>
+       </div>
+    </div>
+
+<!--End of col-md-6 -->
+
+
+</form>
+
+</body>
+</html>

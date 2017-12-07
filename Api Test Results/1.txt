@@ -1,0 +1,10 @@
+{
+    "id": "1",
+    "transaction_type": "credit",
+    "receiver": "user_1",
+    "sender": "Aboki",
+    "amount": "400",
+    "transactionDate": "2017-11-30 04:25:33"
+}
+
+http://localhost/payment_gateway/php/api/v1/transactions.php?key=729b4d79130b97973e90
